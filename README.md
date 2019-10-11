@@ -2,10 +2,11 @@
 A simple Python web scraper template I'll use for future projects.
 
 ## Installation
-For the Beautiful Soup script, you'll need PIP and Beautiful Soup:
+1) Install Python3 and PIP3.
+2) For the Beautiful Soup script, you'll need and Beautiful Soup and any other missing modules.
 
 ```bash
-pip install beautifulsoup4
+pip3 install beautifulsoup4
 ```
 
 ## Usage

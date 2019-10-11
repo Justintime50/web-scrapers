@@ -1,16 +1,22 @@
 import requests
 from bs4 import BeautifulSoup
 
-# get the data
-data = requests.get('http://www.kaupa.com.tw/client/item_detail/autos/3/3974')
+X = 10
 
-# load data into bs4
-soup = BeautifulSoup(data.text, 'html.parser')
+for i in range(X):
+    try:
+        # get the data
+        data = requests.get(f'http://www.kaupa.com.tw/client/item_detail/autos/3/{i}')
 
-title = soup.find('h2')
-subtitle = soup.find('p', { 'style': 'font-size:16px' })
-description = soup.find('div', { 'class': 'product_detail_content' })
+        # load data into bs4
+        soup = BeautifulSoup(data.text, 'html.parser')
 
-print(title).text.strip()
-print(subtitle).text.strip()
-print(description).text.strip()
+        title = soup.find('h2')
+        subtitle = soup.find('p', { 'style': 'font-size:16px' })
+        description = soup.find('div', { 'class': 'product_detail_content' })
+
+        print(title).text.strip()
+        print(subtitle).text.strip()
+        print(description).text.strip()
+    except:
+        break
