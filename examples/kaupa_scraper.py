@@ -1,3 +1,4 @@
+"""Scrape a site using BeautifulSoup and iterate over ecommerce items"""
 import requests
 from bs4 import BeautifulSoup
 
@@ -21,10 +22,6 @@ for i in range(X):
         print(subtitle)
         print(description)
         print("\n")
-    except:
+    except ValueError:
+        print("Could not iterate the list provided.")
         break
-
-# TODO: Working on outputing the text to a file
-file = open("sample.txt","w")
-file.write(title)
-file.close()
