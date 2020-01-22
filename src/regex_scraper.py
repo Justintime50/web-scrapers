@@ -11,4 +11,4 @@ DATA = requests.get(
 PHONES = re.findall(r'(\(?[0-9]{3}\)?(?:\-|\s|\.)?[0-9]{3}(?:\-|\.)[0-9]{4})', DATA.text)
 EMAILS = re.findall(r'([\d\w\.]+@[\d\w\.\-]+\.\w+)', DATA.text)
 
-print(PHONES,"\n",EMAILS,"\n\n", file=open("output.txt", "a"))
+print(PHONES, "\n", EMAILS, "\n\n", file=open("output.txt", "a"))

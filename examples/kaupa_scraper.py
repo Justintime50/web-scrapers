@@ -18,7 +18,7 @@ for i in range(X):
         subtitle = soup.find('p', {'style': 'font-size:16px'}).text.strip()
         description = soup.find('div', {'class': 'product_detail_content'}).text.strip()
 
-        print(title,"\n",subtitle,"\n",description,"\n\n", file=open("output.txt", "a"))
+        print(title, "\n", subtitle, "\n", description, "\n\n", file=open("output.txt", "a"))
     except ValueError:
         print("Could not iterate the list provided.")
         break
