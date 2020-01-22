@@ -21,16 +21,17 @@ pip install -r requirements.txt
 
 ## Usage
 
-Edit the scripts to suit your needs and run the script.
+Edit the scripts to suit your needs, then run them.
 
 - `regex-scraper.py` - simple regex web scraper, quick and dirty approach.
 - `beautiful-soup-scraper.py` - additional customization options available with Beautiful Soup.
-
 
 **Example**
 ```bash
 python beautiful-soup-scraper.py
 ```
+
+The output of the scraped page will be saved to a `output.txt` file.
 
 ## Development & Testing
 
