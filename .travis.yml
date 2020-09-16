@@ -1,14 +1,13 @@
-
 language: python
 
 python:
-    - "3.6"
-    - "3.7"
-    - "3.8"
+    - '3.6'
+    - '3.7'
+    - '3.8'
 
-install: pip install -r requirements.txt
+install: pip install -e ."[dev]"
 
 script: 
-    - pylint src/*.py
-    - pylint examples/*.py
-
+    - flake8 web_scraper/*.py
+    - flake8 test/*.py
+    - pytest --cov=web_scraper
