@@ -1,5 +1,5 @@
 import mock
-from web_scraper.regex_scraper import RegexScraper
+from web_scrapers.regex_scraper import RegexScraper
 
 
 def test_regex_scraper():

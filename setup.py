@@ -9,9 +9,9 @@ REQUIREMENTS = [
 ]
 
 setuptools.setup(
-    name='web-scraper',
-    version='1.0.0',
-    description='Scrape the contents of a webpage, customizable to your needs.',  # noqa
+    name='web-scrapers',
+    version='0.3.0',
+    description='A collection of web scrapers.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='http://github.com/justintime50/web-scraper',

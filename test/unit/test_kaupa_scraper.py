@@ -1,5 +1,5 @@
 import mock
-from web_scraper.kaupa_scraper import KaupaScraper
+from web_scrapers.kaupa_scraper import KaupaScraper
 
 
 def test_kaupa_scraper():
