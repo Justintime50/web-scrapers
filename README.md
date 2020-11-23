@@ -33,10 +33,8 @@ The scripts in this project are provided as a template - each webpage is differe
 * `scrape_iso_country_codes.py` - Scrapes the ISO country codes of countries around the world from Wikipedia.
 
 ```bash
-venv/bin/python web-scraper/beautiful_soup_scraper.py
+venv/bin/python web_scrapers/beautiful_soup_scraper.py
 ```
-
-The output of the scraped page will be saved to a `output.txt` file.
 
 ## Development
 

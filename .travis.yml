@@ -8,9 +8,9 @@ python:
 install: pip install -e ."[dev]"
 
 script: 
-    - flake8 web_scraper/*.py
+    - flake8 web_scrapers/*.py
     - flake8 test/*.py
-    - pytest --cov=web_scraper
+    - pytest --cov=web_scrapers
 
 after_success:
     - coveralls
