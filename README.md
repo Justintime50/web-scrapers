@@ -4,9 +4,8 @@
 
 A collection of web scrapers.
 
-[![Build Status](https://travis-ci.com/Justintime50/web-scraper.svg?branch=master)](https://travis-ci.com/Justintime50/web-scraper)
-[![Coverage Status](https://coveralls.io/repos/github/Justintime50/web-scraper/badge.svg?branch=master)](https://coveralls.io/github/Justintime50/web-scraper?branch=master)
-[![Licence](https://img.shields.io/github/license/justintime50/web-scraper)](LICENSE)
+[![Build Status](https://github.com/Justintime50/web-scrapers/workflows/build/badge.svg)](https://github.com/Justintime50/web-scrapers/actions)
+[![Licence](https://img.shields.io/github/license/justintime50/web-scrapers)](LICENSE)
 
 <img src="assets/showcase.gif" alt="Showcase">
 
@@ -24,7 +23,7 @@ make help
 
 ## Usage
 
-The scripts in this project are provided as a template - each webpage is different and would require tweaking these scripts to scrape the data you need.
+The scripts in this project are provided as a template or example - each webpage is different and would require tweaking these scripts to scrape the data you need.
 
 * `beautiful-soup-scraper.py` - additional customization options available with Beautiful Soup.
 * `kaupa_scraper.py` - an example of using BS4 on a website.
@@ -51,4 +50,4 @@ venv/bin/python web_scrapers/beautiful_soup_scraper.py
 
 ## Attribution
 
-- Code based on the project from [Engineer Man](https://github.com/engineer-man/youtube/tree/master/042).
+- Web scrapers initially based on the project from [Engineer Man](https://github.com/engineer-man/youtube/tree/master/042).

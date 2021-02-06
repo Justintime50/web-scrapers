@@ -1,3 +1,0 @@
-[run]
-omit =
-    web_scraper/beautiful_soup_scraper.py

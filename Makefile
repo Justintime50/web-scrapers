@@ -24,14 +24,5 @@ clean:
 ## lint - Lint the project
 lint:
 	venv/bin/flake8 web_scrapers/*.py
-	venv/bin/flake8 test/*.py
 
-## test - Test the project
-test:
-	venv/bin/pytest
-
-## coverage - Test the project and generate an HTML coverage report
-coverage:
-	venv/bin/pytest --cov=web_scrapers --cov-branch --cov-report=html
-
-.PHONY: help install clean lint test coverage
+.PHONY: help install clean lint
